@@ -20,3 +20,12 @@ span {
     display: inline-block;
     padding: 70px 0;
 }
+
+.container>.row>[class*="col-"]>.row>[class*="col-"] {
+    border: 1px solid white;
+    background-color: palevioletred;
+}
+
+.container>.row>[class*="col-"]>.row {
+    padding: 10px;
+}
